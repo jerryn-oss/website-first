@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    scroll-behavior: smooth;
+
+}
+
+.body {
+    /* background: rgb(248, 246, 246); */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav bar  styling start from here*/
+
+.nav {
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+}
+
+
+.left {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+
+.right a {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.right li {
+    list-style: none;
+}
+
+.right ul {
+    display: flex;
+    gap: 12px;
+}
+
+.span {
+    background-color: red;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* first section  */
+
+.h1 h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.h1 {
+    font-size: 25px;
+    width: 50%;
+    text-align: justify;
+}
+
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+    background-color: rgb(216, 232, 236);
+}
+
+
+.link {
+    margin-top: 25px;
+}
+
+
+.link a {
+    display: inline-block;
+
+    padding: 5px 10px;
+    border: 2px solid;
+    font-size: 10px;
+    font-weight: bold;
+    gap: 1rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+
+}
+
+
+.pic img {
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 23%;
+
+}
+
+
+
+/* styling of my skills section starts from here */
+
+.s {
+    margin: 0 22px;
+    text-align: center;
+}
+
+
+.s a {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.skill {
+    margin: 10%;
+    font-size: 140%;
+}
+
+
+.skill ul {
+    text-transform: capitalize;
+}
+
+/* my skills section styling ends here */
+
+
+
+
+/* styling of my testimony section starts from here */
+
+.testimony {
+    padding: 0 50px;
+    background-color: bisque;
+
+
+
+}
+
+.testimony h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+
+}
+
+
+.group img {
+    width: 340px;
+    margin-left: 30%;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+
+.texts {
+    margin: 18%;
+    font-size: 170%;
+    margin-left: 1.5;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+.group h3{
+    text-align: center;
+    margin-left: 13rem;
+    font-size: 1.2rem;
+}
+
+.group p {
+    text-align: center;
+    margin-left: 13rem;
+}
+
+
+/* my testimony sections styling ends here */
+
+
+
+/* styling of my education section starts from here */
+
+
+
+.education {
+    background-color: rgb(195, 254, 210);
+    background-position: cover;
+}
+
+.education h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    fo
+}
+
+.education h3{
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+
+.school {
+    font-size: 160%;
+    color: brown;
+}
+
+.education p {
+    margin-top: 6%;
+    text-align: center;
+    text-transform: sentence case;
+}
+
+.form {
+    margin-left: 7%;
+    text-transform: capitalize;
+}
+
+.ex {
+    font-size: 130%;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 5rem;
+
+}
+
+
+
+/* styling of my education section ends here */
+
+
+
+
+
+/* styling of my contact section starts from here */
+
+.contact {
+    margin-top: 70px;
+    padding: 30px;
+    /* display: flex; */
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(1, 1, 10);
+}
+
+.contact p {
+    font-size: 20px;
+    margin-right: 350px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+.last {
+    justify-items: center;
+}
+
+.form {
+    margin: 6rem;
+    width: 550px;
+
+}
+
+.form h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+}
+
+.sig {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-transform: initial;
+}
+
+input {
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 0.9rem;
+    border-style: groove;
+
+}
+
+.butt {
+    width: 100%;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+}
