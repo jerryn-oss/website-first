@@ -117,25 +117,40 @@ a {
 /* styling of my skills section starts from here */
 
 .s {
-    margin: 0 22px;
+    margin: 1px 200px;
     text-align: center;
 }
 
 
 .s a {
-    font-size: 30px;
+
     text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(5, 30, 31);
+}
+
+.s p {
+    font-size: 2rem;
+    text-align: end;
 }
 
 
 .skill {
-    margin: 10%;
     font-size: 140%;
+    background-color: rgb(191, 255, 210);
+
 }
 
 
 .skill ul {
-    text-transform: capitalize;
+    text-transform: sendence case;
+}
+
+.li {
+    font-size: 2rem;
+    text-align: justify;
+    margin-left: 400px;
 }
 
 /* my skills section styling ends here */
@@ -147,7 +162,7 @@ a {
 
 .testimony {
     padding: 0 50px;
-    background-color: bisque;
+    background-color: rgb(182, 187, 249);
 
 
 
@@ -161,6 +176,7 @@ a {
 
 .group {
     display: flex;
+    gap: 2rem;
 
 }
 
@@ -174,12 +190,11 @@ a {
 
 .texts {
     margin: 18%;
-    font-size: 170%;
-    margin-left: 1.5;
     margin-top: 4rem;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
 }
-.group h3{
+
+.group h3 {
     text-align: center;
     margin-left: 13rem;
     font-size: 1.2rem;
@@ -200,34 +215,30 @@ a {
 
 
 .education {
-    background-color: rgb(195, 254, 210);
+    background-color: rgb(231, 255, 231);
     background-position: cover;
 }
 
-.education h2{
+.education h2 {
     font-size: 3rem;
     text-transform: capitalize;
     text-align: center;
     fo
 }
 
-.education h3{
+.education h3 {
     text-align: center;
     font-size: 1.6rem;
     text-transform: capitalize;
 }
 
 
-.school {
-    font-size: 160%;
-    color: brown;
-}
-
 .education p {
     margin-top: 6%;
-    text-align: center;
     text-transform: sentence case;
 }
+
+
 
 .form {
     margin-left: 7%;
@@ -239,10 +250,7 @@ a {
     text-align: center;
     text-transform: lowercase;
     margin-top: 5rem;
-
 }
-
-
 
 /* styling of my education section ends here */
 
